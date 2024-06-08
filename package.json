@@ -17,7 +17,8 @@
   "scripts": {
     "build": "tsc",
     "start": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon src/app.ts --exec ts-node"
   },
   "author": "Jinhjlog",
   "license": "ISC",
