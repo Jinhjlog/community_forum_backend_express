@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "ulid": "^2.3.0"
   },
   "name": "community_forum_backend_express",
   "version": "1.0.0",
   "main": "src/app.ts",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.20",
